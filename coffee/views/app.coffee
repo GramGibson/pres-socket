@@ -1,5 +1,5 @@
 $ ->
-	socket = io.connect 'http://192.168.1.84:9999/'
+	socket = io.connect 'http://localhost:9999/'
 	
 	mode = null
 	slides = null
