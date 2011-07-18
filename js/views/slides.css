@@ -1,0 +1,45 @@
+section {
+	padding:80px 120px 0;
+	width:784px;
+	height:560px;
+	display: none; 
+	background: #2270BA;
+}
+
+.full {
+	position:absolute;
+	top:50%;
+	left:50%;
+	overflow:hidden;
+	margin:-320px 0 0 -512px;
+	width:1024px;
+	height:640px;
+	background:#2270BA;
+}
+
+.slide-selected { display: block; }
+.action, .action-on  { display: none; }
+
+/* PTSans */
+@font-face {
+	font-family:'PT Sans';
+	src:local('PT Sans'),
+		url(../fonts/PTSans.woff) format('woff')
+}
+@font-face {
+	font-weight:bold;
+	font-family:'PT Sans';
+	src:local('PT Sans Bold'),
+		url(../fonts/PTSans.Bold.woff) format('woff')
+}
+@font-face {
+	font-family:'PT Sans Narrow';
+	src:local('PT Sans Narrow'),
+		url(../fonts/PTSans.Narrow.woff) format('woff')
+}
+@font-face {
+	font-family:'PT Sans Narrow';
+	font-weight:bold;
+	src:local('PT Sans Narrow Bold'),
+		url(../fonts/PTSans.Narrow.Bold.woff) format('woff')
+}
